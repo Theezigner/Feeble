@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   title: "Coup",
   description:
     "Coup lets you, your team, or AI workflows send iMessages directly from your phone number, running securely on your Mac or Mac Mini.",
+  icons: {
+    icon: "/assets/favicon.svg",
+  },
 };
 
 export default function RootLayout({

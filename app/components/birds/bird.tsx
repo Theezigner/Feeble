@@ -30,7 +30,7 @@ export default function Bird({ src, className, iconClassName }: BirdProps) {
         className="w-full h-full"
       />
 
-      {/* Message Icon - positioned at bottom right of bird */}
+      {/* Message Icon */}
       <div className={`absolute ${iconClassName || "bottom-0 right-2"}`}>
         <MessageIcon />
       </div>
