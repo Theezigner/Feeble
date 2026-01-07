@@ -187,4 +187,4 @@ This project is created as part of Feeble's frontend developer assignment.
 
 **Developer:** [Temitayo Adebayo]
 **Contact:** [adebayotemitayo86@gmail.com]
-**Submission Date:** [January 6,2026]
+**Submission Date:** [January 7,2026]
