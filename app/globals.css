@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #007aff;
+
+  --color-background-blue: #007aff;
+  --color-background-white: #ffffff;
+
+  --color-text-primary: #1d2026;
+  --color-text-secondary: #8c97a8;
+
+  --color-bird: #00336b;
+
+  --color-border-mac: #6c788f;
+
+  --color-cloud-1: #007aff;
+  --color-cloud-2: #3395ff;
+  --color-cloud-3: #84baf5;
+  --color-cloud-4: #ffffff;
+
+  --radius-badge: 200px;
+  --radius-button: 50px;
+
+  --shadow-navbar: 0 1px 4px 0 rgba(12, 12, 13, 0.05);
+  --shadow-badge: 0 0.25px 1px 0 rgba(0, 0, 0, 0.1);
+
+  --width-border-mac: 0.7px;
+
+  --font-family-sans: var(--font-general-sans), system-ui, sans-serif;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-general-sans), system-ui, sans-serif;
+  background-color: #007AFF;
+  color: #1D2026;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.text-blue {
+  color: #007AFF;
 }
