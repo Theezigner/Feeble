@@ -13,7 +13,7 @@ export default function HeroBody() {
     >
       <div className="absolute top-[-229px] left-[-93px] rounded-full w-[471px] h-[442px] bg-white/70 blur-[121px]"></div>
       {/* navbar */}
-      <div className="w-full flex justify-center px-4 md:px-0">
+      <div className="w-full flex justify-center px-4 md:px-0 z-1">
         <Navbar />
       </div>
 
